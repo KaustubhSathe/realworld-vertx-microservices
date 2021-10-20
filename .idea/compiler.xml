@@ -7,12 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rw-gql" />
-        <module name="rw-profile" />
         <module name="rw-auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rw-auth" target="1.5" />
+      <module name="rw-auth" target="11" />
       <module name="rw-gql" target="11" />
       <module name="rw-profile" target="11" />
     </bytecodeTargetLevel>

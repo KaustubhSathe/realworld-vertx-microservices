@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/auth/rw-auth.iml" filepath="$PROJECT_DIR$/auth/rw-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rw-auth/rw-auth.iml" filepath="$PROJECT_DIR$/rw-auth/rw-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/rw-gql/rw-gql.iml" filepath="$PROJECT_DIR$/rw-gql/rw-gql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rw-profile/rw-profile.iml" filepath="$PROJECT_DIR$/rw-profile/rw-profile.iml" />
     </modules>
   </component>
 </project>

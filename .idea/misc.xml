@@ -5,9 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/auth/pom.xml" />
         <option value="$PROJECT_DIR$/profile/pom.xml" />
-        <option value="$PROJECT_DIR$/rw-auth/pom.xml" />
         <option value="$PROJECT_DIR$/rw-gql/pom.xml" />
-        <option value="$PROJECT_DIR$/rw-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/rw-auth/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
