@@ -20,4 +20,6 @@ public class Link {
   public User getPostedBy() {
     return postedBy;
   }
+
+
 }
