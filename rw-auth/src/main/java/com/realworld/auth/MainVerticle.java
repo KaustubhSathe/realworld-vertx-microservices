@@ -17,19 +17,19 @@ public class MainVerticle extends AbstractVerticle {
       @Override
       public Future<HelloReply> sayHello(HelloRequest request) {
         return Future.succeededFuture(HelloReply.newBuilder()
-          .setMessage(request.getName())
+          .setMessage("Hello world grpc!!!")
           .build());
       }
     }.withCompression("gzip");
 
     VertxServer rpcServer = VertxServerBuilder
-      .forAddress(vertx,"localhost", 443)
+      .forAddress(vertx,"localhost", 8081)
       .addService(service)
       .build();
 
     rpcServer.start((ar) -> {
       if(ar.succeeded()){
-        System.out.println("Successfullt started grpc server on port " + 443);
+        System.out.println("Successfully started grpc server on port " + 8081);
       }
     });
   }

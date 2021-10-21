@@ -1,4 +1,4 @@
-package com.realworld.rw_gql;
+package com.realworld.gql;
 
 import io.vertx.core.Vertx;
 import io.vertx.junit5.VertxExtension;
