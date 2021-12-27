@@ -8,6 +8,7 @@
 5. **rw-notifications** : Notification service
 6. **rw-search** : Search service
 7. **rw-chat** : Chat service
+8. **rw-crons** : Cron service
 
 
 #### Authentication Flow
