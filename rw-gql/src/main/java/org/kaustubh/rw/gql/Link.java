@@ -1,4 +1,4 @@
-package com.realworld.gql;
+package org.kaustubh.rw.gql;
 
 public class Link {
   private final String url;

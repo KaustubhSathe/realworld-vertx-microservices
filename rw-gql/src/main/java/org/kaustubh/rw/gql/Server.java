@@ -1,4 +1,4 @@
-package com.realworld.gql;
+package org.kaustubh.rw.gql;
 
 import graphql.GraphQL;
 import graphql.schema.DataFetchingEnvironment;

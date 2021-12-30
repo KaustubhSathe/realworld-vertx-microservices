@@ -1,4 +1,4 @@
-package com.realworld.gql;
+package org.kaustubh.rw.gql;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Launcher;
@@ -7,7 +7,6 @@ import io.vertx.ext.web.client.WebClient;
 import io.vertx.ext.web.client.WebClientOptions;
 import io.vertx.ext.web.client.predicate.ResponsePredicate;
 import io.vertx.ext.web.codec.BodyCodec;
-import io.vertx.rxjava3.redis.client.Response;
 
 public class Client extends AbstractVerticle {
   public static void main(String[] args) {

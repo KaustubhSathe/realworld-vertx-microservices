@@ -1,4 +1,4 @@
-package com.realworld.gql;
+package org.kaustubh.rw.gql;
 
 public class User {
   private final String name;
