@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/kaustubh/vertx-gql-starter/1.0-SNAPSHOT/vertx-gql-starter-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/kaustubh/vertx-gql-starter/1.0-SNAPSHOT/vertx-gql-starter-1.0-SNAPSHOT.jar!/" />
     </SOURCES>
   </library>
 </component>
