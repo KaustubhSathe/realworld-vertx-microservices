@@ -2,6 +2,8 @@ package com.rw.gql.fetchers;
 
 import com.kaustubh.vertx.gql.starter.AbstractDataFetcher;
 import com.kaustubh.vertx.gql.starter.Fetcher;
+import com.kaustubh.vertx.gql.starter.Request;
+import com.kaustubh.vertx.gql.starter.io.Response;
 import graphql.schema.DataFetchingEnvironment;
 import io.reactivex.rxjava3.core.Single;
 
@@ -13,9 +15,9 @@ import java.util.concurrent.CompletionStage;
   parameter = "hello",
   type = "Query"
 )
-public class ExampleFetcher extends AbstractDataFetcher<CompletionStage<String>> {
+public class ExampleFetcher extends AbstractDataFetcher<String> {
   @Override
-  public CompletionStage<String> get(DataFetchingEnvironment dataFetchingEnvironment) throws Exception {
-    return Single.just("world").toCompletionStage();
+  public Single<String> get(Request request) throws Exception {
+    return Single.just(request.getEnvironment().getArguments().get("name").toString());
   }
 }
